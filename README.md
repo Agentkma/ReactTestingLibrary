@@ -5,6 +5,12 @@ _Course material for testing React components using react-testing-library_
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Pre-requisites:](#pre-requisites)
+- [System Requirements:](#system-requirements)
+- [Setup:](#setup)
+- [License](#license)
+- [ReactTestingLibrary](#reacttestinglibrary)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 <small>I'm still working on the README... sorry...</small>
@@ -42,3 +48,5 @@ This material is available for private, non-commercial use under the
 [GPL version 3](http://www.gnu.org/licenses/gpl-3.0-standalone.html). If you
 would like to use this material to conduct your own workshop, please contact me
 at kent@doddsfamily.us
+
+# ReactTestingLibrary
