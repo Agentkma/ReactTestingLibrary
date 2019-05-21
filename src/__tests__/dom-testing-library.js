@@ -17,6 +17,9 @@ test('renders a number input with a label "Favorite Number"', () => {
   //expect(div.querySelector('input')).toHaveAttribute('type', 'number')
   //expect(div.querySelector('label')).toHaveTextContent('Favorite Number')
   // * Using regexe to match text , could use string `Favorite Number` also
+  // * getByText( (conents, element=> true))
+  // * passing function allows you to iterate through elements and look for something
+  // * will return true/false
   expect(queries.getByLabelText(/favorite number/i)).toHaveAttribute(
     'type',
     'number',
