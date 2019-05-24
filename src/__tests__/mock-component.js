@@ -24,6 +24,7 @@ import {HiddenMessage} from '../hidden-message'
 // 📖 https://jestjs.io/docs/en/jest-object#jestmockmodulename-factory-options
 jest.mock('react-transition-group', () => {
   /* return the mock object */
+  // * adding the jest.fn() allows us to use  `toHaveBeenCalled..`
   return {
     CSSTransition: jest.fn(props => (props.in ? props.children : null)),
   }
