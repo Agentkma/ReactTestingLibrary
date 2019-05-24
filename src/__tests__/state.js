@@ -33,8 +33,8 @@ test('renders a number input with a label "Favorite Number"', () => {
 /*
 http://ws.kcd.im/?ws=react-testing-library-course&e=state&em=kevin.m.anderson@icloud.com
 */
-test.skip('I submitted my elaboration and feedback', () => {
-  const submitted = false // change this when you've submitted!
+test('I submitted my elaboration and feedback', () => {
+  const submitted = true // change this when you've submitted!
   expect(submitted).toBe(true)
 })
 ////////////////////////////////

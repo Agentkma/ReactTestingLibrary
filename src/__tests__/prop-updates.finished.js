@@ -14,5 +14,8 @@ test('entering an invalid value shows an error message', () => {
     /the number is invalid/i,
   )
   rerender(<FavoriteNumber max={10} />)
+  // * Use queryByTestId b/c all get**** utils will throw an erro
+  // * if they cannot find the node
+  // * so if looking for something to NOT be in document.body, use queryBy****
   expect(queryByTestId('error-message')).toBeNull()
 })
